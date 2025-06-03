@@ -1,0 +1,161 @@
+/* Web.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.web-container {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem 1.5rem;
+  background-color: #121212;
+  color: #f0f0f0;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 224, 255, 0.3);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.web-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #00e0ff;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.web-highlight {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #66fcf1;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.web-desc {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #cfd8dc;
+}
+
+.web-section {
+  margin-bottom: 1.8rem;
+  color: #b0bec5;
+}
+
+.web-section h3 {
+  color: #00e0ff;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+}
+
+.web-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.web-section ul li {
+  margin-bottom: 0.6rem;
+  padding-left: 1.5rem;
+  position: relative;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #eceff1;
+}
+
+.web-section ul li::before {
+  content: '•';
+  color: #00e0ff;
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.web-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #cfd8dc;
+}
+
+.register-button {
+  display: block;
+  margin: 2rem auto 1rem;
+  background: linear-gradient(90deg, #00e0ff 0%, #007ea7 100%);
+  color: #121212;
+  font-weight: 700;
+  border: none;
+  padding: 14px 36px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0, 224, 255, 0.6);
+  transition: background 0.3s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-button:hover,
+.register-button:focus {
+  background: linear-gradient(90deg, #007ea7 0%, #00e0ff 100%);
+  transform: translateY(-3px);
+  outline: none;
+}
+
+.back-link {
+  display: block;
+  margin: 1rem auto 0;
+  text-align: center;
+  font-weight: 500;
+  color: #66fcf1;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover,
+.back-link:focus {
+  color: #00e0ff;
+  text-decoration: underline;
+  outline: none;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .web-container {
+    padding: 1.5rem 1rem;
+    margin: 2rem 1rem;
+  }
+
+  .web-title {
+    font-size: 2rem;
+  }
+
+  .web-highlight {
+    font-size: 1.1rem;
+  }
+
+  .web-desc {
+    font-size: 1rem;
+  }
+
+  .register-button {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 12px 0;
+  }
+}
