@@ -39,15 +39,31 @@ Welcome to the **TechZeon Portal** — a fully responsive web application that s
 ---
 
 ## 📂 Project Structure
+TechZeon-Portal/
+│
+├── public/
+│ └── index.html
+│
+├── src/
+│ ├── components/
+│ │ ├── Header.jsx
+│ │ ├── Login.jsx
+│ │ ├── Signup.jsx
+│ │ └── Dashboard.jsx
+│ ├── events/
+│ │ ├── Web.jsx
+│ │ ├── Ui.jsx
+│ │ ├── DataScience.jsx
+│ │ ├── ProjectExpo.jsx
+│ │ ├── CodeContest.jsx
+│ │ └── TechnicalQuiz.jsx
+│ ├── App.js
+│ └── index.js
+├── style/
+│ └── AllEventStyles.css
+├── README.md
+└── package.json
 
-
----
-
-## 📸 Screenshots
-
-*(Add screenshots of your homepage, event registration page, login page, etc.)*
-
----
 
 ## 🚀 Getting Started
 
