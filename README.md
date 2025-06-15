@@ -6,7 +6,7 @@ Welcome to the **TechZeon Portal** — a fully responsive web application that s
 
 ## 🖥️ Live Website
 
-🔗 [Visit the TechZeon Portal](https://sreehithareddypuli05.github.io/ReactApp.git)
+🔗 [Visit the TechZeon Portal]https://techzeon-bohgfm7md-sreehithareddypuli05s-projects.vercel.app/
 
 ---
 
